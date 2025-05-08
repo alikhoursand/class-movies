@@ -19,7 +19,6 @@
         <div class=" p-2 basis-1/5">
             <p class="font-medium text-lg border-b-4 border-primary w-fit  mx-auto">ژانرها</p>
             <ul class="mt-3 font-medium text-center">
-                <li v-for="genre in genres" class=" opacity-75">{{ genre.name }}</li>
             </ul>
         </div>
         <div class="p-2 basis-full lg:basis-1/4">
@@ -38,6 +37,5 @@
 
 <script>
 export default {
-    props: ['genres']
 }
 </script>
